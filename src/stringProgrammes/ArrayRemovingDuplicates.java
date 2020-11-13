@@ -21,7 +21,7 @@ public class ArrayRemovingDuplicates {
 	    		if(words[i]==words[j])
 	    		{
 	    			
-	    			System.out.println( "Duplicate word is :" + words[j] + " ");
+	    			System.out.println( " Duplicate word is :" + words[i] + " ");
 	    			
 	    			
 	    			
