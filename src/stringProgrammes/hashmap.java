@@ -34,8 +34,8 @@ public class hashmap {
 		while(itr1.hasNext())
 		{
 			Entry<Integer,String> entry =itr1.next();
-			//System.out.println(entry.getKey() + " " + entry.getValue());
-			System.out.println(entry);
+			System.out.println(entry.getKey() + " " + entry.getValue());
+			//System.out.println(entry);
 			
 			
 		}

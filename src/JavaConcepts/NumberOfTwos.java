@@ -221,24 +221,37 @@ public class NumberOfTwos {
 //}}
 
 		
-		
+		public static void main(String[] args) {
 		// print charcters from given string
-//		String string = "W1ORD";
-//		
-//		String characterscount = "";
-//		
-//		
-//		for(int i=0;i<string.length();i++)
-//		{
-//	
-//			char ch = string.charAt(i);
-//		if(!Character.isDigit(ch))
-//		{
-//			
-//	System.out.print(ch);
-//			
-//			
-//		}
+		String string = "W1ORD";
+		
+		String characterscount = "";
+		String numericount = "";
+		
+		
+		for(int i=0;i<string.length();i++)
+		{
+	
+			char ch = string.charAt(i);
+		if(!Character.isDigit(ch))
+		{
+			
+			characterscount = characterscount+ch;
+	
+			
+			
+		}
+		else {
+			
+			numericount = numericount+ch;
+			
+		}
+		
+		
+		}
+		System.out.println(characterscount);
+		System.out.println(numericount);
+		}}
 		
 //		
 //		
@@ -248,20 +261,20 @@ public class NumberOfTwos {
 	
 	
 	
-	public static void main(String[] args) {
-		
-		int number1 = 3;
-		int number2 = 5;
-		
-		for(int i=1;i<=20;i++)
-		{
-			int number3 = number1*i;
-			System.out.println("Multiples of 3 : " + number3 + " " + "--->" + "Fizz" );
-			
-		}
-	
-	}
-	}
+//	public static void main(String[] args) {
+//		
+//		int number1 = 3;
+//		int number2 = 5;
+//		
+//		for(int i=1;i<=20;i++)
+//		{
+//			int number3 = number1*i;
+//			System.out.println("Multiples of 3 : " + number3 + " " + "--->" + "Fizz" );
+//			
+//		}
+//	
+//	}
+	//}
 	
 	
 	
