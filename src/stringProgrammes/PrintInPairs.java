@@ -38,20 +38,52 @@ public class PrintInPairs {
 	{
 		
 	
-	int[] a1 = {1,2,3,4,5};
-	int[] a2= {2,5,3,4,6};
+//	int[] a1 = {1,2,3,4,5};
+//	int[] a2= {2,5,3,4,6};
+//	
+//	Arrays.sort(a1);
+//	Set<Integer> set = new HashSet<>();
+//	for(Integer integer : a1)
+//	{
+//		
+//		set.add(integer);
+//		System.out.println(set);
+//		
+//	}
 	
-	Arrays.sort(a1);
-	Set<Integer> set = new HashSet<>();
-	for(Integer integer : a1)
+	int number = 5;
+	boolean prime = false;
+	for(int i=2; i<number/2;++i)
 	{
 		
-		set.add(integer);
-		System.out.println();
+		if(number%2==0)
+		{
+			
+			prime = true;
+			break;
+			
+		}
+		else {
+			
+			prime = false;
+			
+			
+		}
 		
 	}
 	
+	if(!prime) {
+		
+		System.out.println("it is a prime number");
 	
+	
+	else if(prime) {
+		
+		System.out.println("it is a not a prime number");
+
+		
+		
+	}
 	
 	
 	

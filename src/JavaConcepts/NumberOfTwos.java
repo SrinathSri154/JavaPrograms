@@ -191,22 +191,66 @@ public class NumberOfTwos {
 
 
 	//factorial of number
-//	public static void main(String[] args) {
-//		
-//
-//		// print number of 2's from given array
-//		int[] arr = {1,2,222,32,4,2,5};
+	public static void main(String[] args) {
+		
+		
+		//Seperating alphanumeric
+		
+		String str = "srinath156435sri#@$%^&*()+_!~";
+		
+		String numeric="";
+		String alpha="";
+		for(int i=0;i<str.length();i++)
+		{
+			char ch = str.charAt(i);
+			
+//			if(Character.isAlphabetic(ch))
+//			{
+//				alpha = alpha+ch;		
+//			}
+//			else {
+//				
+//				
+//				numeric = numeric+ch;
+//			}
+			
+			if(Character.isDigit(ch))
+			{	
+				
+				numeric = numeric+ch;
+				
+				
+			}
+			
+			else {
+				
+				
+				alpha = alpha+ch;
+				
+			}
+			
+			
+		}
+		
+		
+		System.out.println("The alphabes in the given string is :" + alpha);
+		System.out.println("The numbers in the given string is :" + numeric);		
+	}}
+		
+
+		// print number of 2's from given array
+//		int[] arr = {1,2,222,32,4,22222,5};
 //
 //int twooccurence=0;
 //for(int i=0; i<arr.length;i++)
 //{
 //	
 //String str = String.valueOf(arr[i]);
+//char[] ch = str.toCharArray();
 //
-//for(char ch: str.toCharArray())
-//{
+//for(char Char :ch)
 //	
-//if(ch=='2')
+//if(Char=='2')
 //{
 //	twooccurence = twooccurence+ 1;
 //	
@@ -214,45 +258,45 @@ public class NumberOfTwos {
 //}
 //
 //}
-//
+//System.out.println(twooccurence);}
 //}
-//
-//System.out.println(twooccurence);
-//}}
+
+
+
 
 		
-		public static void main(String[] args) {
-		// print charcters from given string
-		String string = "W1ORD";
-		
-		String characterscount = "";
-		String numericount = "";
-		
-		
-		for(int i=0;i<string.length();i++)
-		{
-	
-			char ch = string.charAt(i);
-		if(!Character.isDigit(ch))
-		{
-			
-			characterscount = characterscount+ch;
-	
-			
-			
-		}
-		else {
-			
-			numericount = numericount+ch;
-			
-		}
-		
-		
-		}
-		System.out.println(characterscount);
-		System.out.println(numericount);
-		}}
-		
+//		public static void main(String[] args) {
+//		// print charcters from given string
+//		String string = "W1ORD";
+//		
+//		String characterscount = "";
+//		String numericount = "";
+//		
+//		
+//		for(int i=0;i<string.length();i++)
+//		{
+//	
+//			char ch = string.charAt(i);
+//		if(!Character.isDigit(ch))
+//		{
+//			
+//			characterscount = characterscount+ch;
+//	
+//			
+//			
+//		}
+//		else {
+//			
+//			numericount = numericount+ch;
+//			
+//		}
+//		
+//		
+//		}
+//		System.out.println(characterscount);
+//		System.out.println(numericount);
+//		}}
+//		
 //		
 //		
 //		
@@ -278,7 +322,7 @@ public class NumberOfTwos {
 	
 	
 	
-		
+	
 		
 		
 		
